@@ -11,14 +11,26 @@ export const Card = styled.div<Props>`
   color: ${(props) => (props.ativo ? '#1E90FF' : '#5e5e5e')};
   border-radius: 8px;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    padding: 6px;
+  }
 `
 
 export const Contador = styled.span`
   font-weight: bold;
   font-size: 24px;
   display: block;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `
 
 export const Label = styled.span`
   font-size: 14px;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `

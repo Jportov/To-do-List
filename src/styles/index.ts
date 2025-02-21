@@ -14,12 +14,20 @@ const EstiloGlobal = createGlobalStyle`
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 224px auto;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const MainContainer = styled.main`
   padding: 0 40px;
   height: 100vh;
   overflow-y: scroll;
+
+  @media (max-width: 768px) {
+    padding: 0 20px;
+  }
 `
 
 export const Titulo = styled.h2`
@@ -28,6 +36,12 @@ export const Titulo = styled.h2`
   margin-bottom: 40px;
   font-size: 18px;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 `
 
 export const Campo = styled.input`
@@ -38,6 +52,10 @@ export const Campo = styled.input`
   color: #666666;
   border-color: #666666;
   width: 100%;
+
+  @media (max-width: 768px) {
+    padding: 6px;
+  }
 `
 
 export const Botao = styled.button`
@@ -50,6 +68,11 @@ export const Botao = styled.button`
   background-color: ${variaveis.azulEscuro};
   border-radius: 8px;
   margin-right: 8px;
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
 `
 
 export const BotaoSalvar = styled(Botao)`

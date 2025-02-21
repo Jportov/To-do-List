@@ -16,4 +16,12 @@ export const Circulo = styled(Link)`
   align-items: center;
   font-size: 40px;
   text-decoration: none;
+
+  @media (max-width: 768px) {
+    height: 48px;
+    width: 48px;
+    font-size: 30px;
+    bottom: 20px;
+    right: 20px;
+  }
 `

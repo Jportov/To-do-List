@@ -35,12 +35,26 @@ export const Card = styled.div`
     align-items: center;
     margin-bottom: 16px;
   }
+
+  @media (max-width: 768px) {
+    padding: 12px;
+    margin-bottom: 24px;
+
+    label {
+      margin-bottom: 12px;
+    }
+  }
 `
 
 export const Titulo = styled.h3`
   font-size: 18px;
   font-weight: bold;
   margin-left: 8px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    margin-left: 6px;
+  }
 `
 
 export const Tag = styled.span<TagProps>`
@@ -52,6 +66,12 @@ export const Tag = styled.span<TagProps>`
   border-radius: 8px;
   margin-right: 16px;
   display: inline-block;
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+    padding: 3px 6px;
+    margin-right: 12px;
+  }
 `
 
 export const Descricao = styled.textarea`
@@ -66,13 +86,28 @@ export const Descricao = styled.textarea`
   resize: none;
   border: none;
   background-color: transparent;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
 `
 
 export const BarraAcoes = styled.div`
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding-top: 16px;
+
+  @media (max-width: 768px) {
+    padding-top: 12px;
+  }
 `
 
 export const BotaoCancelarRemover = styled(Botao)`
   background-color: ${variaveis.vermelho};
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
 `

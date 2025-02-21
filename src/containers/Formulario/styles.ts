@@ -11,6 +11,10 @@ export const Form = styled.form`
     resize: none;
     margin: 16px 0;
   }
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `
 
 export const Opcoes = styled.div`
@@ -23,9 +27,26 @@ export const Opcoes = styled.div`
   label {
     margin-right: 6px;
   }
+
+  @media (max-width: 768px) {
+    margin-bottom: 12px;
+
+    p {
+      margin-bottom: 4px;
+    }
+
+    label {
+      margin-right: 4px;
+    }
+  }
 `
 
 export const Opcao = styled.div`
   display: inline;
   text-transform: capitalize;
+
+  @media (max-width: 768px) {
+    display: block;
+    margin-bottom: 4px;
+  }
 `
