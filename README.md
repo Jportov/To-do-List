@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# To-do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de lista de tarefas simples e eficiente, desenvolvido para ajudar você a organizar suas atividades diárias.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Filtrar tarefas por status (todas, concluídas, pendentes)
+- Excluir tarefas
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: Biblioteca JavaScript para construção de interfaces de usuário.
+- TypeScript: Superset do JavaScript que adiciona tipagem estática.
+- Styled Components: Biblioteca para estilização de componentes utilizando CSS-in-JS.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalação
 
-### `npm test`
+Siga os passos abaixo para configurar o projeto localmente:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/To-do-List.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd To-do-List
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-### `npm run build`
+## Uso
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para iniciar o projeto, execute o comando:
+```bash
+npm start
+```
+O projeto estará disponível em `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
 
-### `npm run eject`
+1. Fork o repositório
+2. Crie uma nova branch:
+    ```bash
+    git checkout -b minha-nova-funcionalidade
+    ```
+3. Faça suas alterações e commit:
+    ```bash
+    git commit -m 'Adiciona nova funcionalidade'
+    ```
+4. Envie para o branch original:
+    ```bash
+    git push origin minha-nova-funcionalidade
+    ```
+5. Abra um pull request
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Licença
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
